@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./CSS/survey_form.css"
+    />
+  </head>
+
+  <header>
+    <h1 class="wordCarousel">    
+      <span>Coding Survey</span>  
+      <div id="animation"> 
+<!--        Use classes 2,3, or 4 to match the number of words --> 
+          <ul class="flip4"> 
+              <li>[o_o]</li>
+              <li>[oo]</li>
+              <li>[o]</li> 
+              <li>[]</li>  
+          </ul>
+      </div>  
+  </h1>
+    
+    <p id="description">
+      Tell us what programming language do you preffer!
+    </p>
+
+  </header>
+
+  <body>
+
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+
+    <form id="survey-form">
+      <div id="survey-form-content">
+      <div class="form-group-text">
+        <label for="name-label">Name:
+        <input type="text" name="name" id="name" class="form-control" placeholder="Tell your name" required/>
+      </div>
+      <div class="form-group-text">
+        <label for="email-label">E-mail:
+        <input type="email" name="email" id="email" class="form-control" placeholder="Your e-mail" required/>
+      </div>
+      <div class="form-group-text">
+        <label for="number-label">Age:
+        <input type="number" name="age" id="number" min="1" max="150" class="form-control" placeholder="Your age" required/>
+      </div>
+      
+      <hr>
+
+      <div id="form-group">
+        <span>How many days at week do you programm?</span>
+        <select name="cores" id="dropdown">
+          <option value="one">1</option>
+          <option value="two">2</option>
+          <option value="three">3</option>
+          <option value="four">4</option>
+          <option value="five">5</option>
+          <option value="six">6</option>
+          <option value="seven"></option>
+        </select>
+      </div>
+
+      <hr>
+
+      <div id="form-group">
+        <p>How many hours a day?</p>
+        <label><input type="radio" name="hours" id="input_radio" />1h-3h <br>
+        <label><input type="radio" name="hours" id="input_radio" />3h-6h <br>
+        <label><input type="radio" name="hours" id="input_radio" />6h-12h <br>
+        <label><input type="radio" name="hours" id="input_radio" />+12h (I'm a Cyborg)
+      </div>
+
+      <hr>
+
+      <p>What language do you preffer?</p>
+      <div id="form-group">
+        <label><input type="checkbox" name="value" id="language" />HTML</label><br>
+        <label><input type="checkbox" name="value" id="language" />CSS</label><br>
+        <label><input type="checkbox" name="value" id="language" />Python</label><br>
+        <label><input type="checkbox" name="value" id="language" />Java</label><br>
+        <label><input type="checkbox" name="value" id="language" />PHP</label><br>
+        <label><input type="checkbox" name="value" id="language" />Javascript</label><br>
+        <label><input type="checkbox" name="value" id="language" />Cobol</label><br>
+        <label><input type="checkbox" name="value" id="language" />Swift</label><br>
+      </div>
+
+      <hr>
+
+      <div id="form-group">
+        <p>Say why do you preffer the selected language.</p>
+        <textarea name="" id="textarea" ></textarea>
+        <p><button id="submit">Submit</button></p>
+      </div>
+      </div>
+    </form>
+  </body>
+</html>
+
+<!-- cols="80" rows="10" -->

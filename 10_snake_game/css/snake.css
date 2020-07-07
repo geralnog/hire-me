@@ -1,0 +1,55 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #423E3B;
+} 
+
+#title {
+    color: darkgreen;
+    background-color: lightcoral;
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    padding: 0;
+}
+
+#text_instructions {
+    font-size: 1em;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+
+}
+
+#game_area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 20px;
+}
+
+#snake_svg {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+}
+
+#refresh {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#refresh_btn {
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    background-color: yellow;
+}

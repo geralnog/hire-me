@@ -1,0 +1,108 @@
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 1em;
+    }
+
+    #imagens_bloco_1, #imagens_bloco_2, #imagens_bloco_3 {
+        max-width: 100vh;
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    font-size: 1em;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 100%;
+  width: 150px;
+  overflow-x: hidden;
+  background: rgb(202, 201, 201);
+  padding: 20px;
+  text-align: left !important;
+}
+
+#navbar > .nav-link {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding-bottom: 5px;
+    padding-top: 6px;
+    padding-left: 5px;
+}
+
+#header_navbar {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#main-doc {
+  padding-left: 190px;
+}
+
+body {
+  padding-left: 10px;
+  padding-right: 30px;
+  text-align: justify;
+  font-family: "Rubik", sans-serif;
+}
+
+#imagens_bloco_1, #imagens_bloco_2, #imagens_bloco_3 {
+    margin-left: 0;
+}
+
+#html_1 {
+    padding-right: 20px;
+}
+
+#css_1 {
+    padding-right: 20px;
+}
+
+#facebook_logo {
+    height: 30px;
+    padding-right: 10px;
+}
+
+#twitter_logo {
+    height: 30px;
+}
+
+#info {
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.main-section > a {
+    text-decoration: none;
+    color: black;
+}
+#imagens_bloco_3 {
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+    padding-top: 8px;
+    
+}
+
+#journey {
+    background-color: rgb(221, 221, 221);
+    padding: 5px 0 2px 20px;
+    display: block;
+    
+}   
+
+footer {
+    color: black;
+    text-align: center;
+    padding-left: 190px;
+    font-size: 0.9em;
+}

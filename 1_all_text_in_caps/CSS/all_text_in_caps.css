@@ -1,0 +1,52 @@
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+    @media screen and (min-width: 601px) {
+        font-size: 80px;
+        
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+        font-size: 30px;
+    
+}
+
+
+body {
+    background-color: #FCB97D;
+}
+
+.page_position {
+    max-width: 800px;
+    height: 400px;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #EDD892
+        
+}
+
+
+#text_area {
+    display: flex;
+    Width: 90%;
+    height:  250px;
+    min-height: 200px;
+    align-content: center;
+    margin: auto;
+    outline: none;
+    resize: none;
+    border-style: none;
+    border-color: yellowgreen;   
+    background-color: #C6B89E;
+}
+
+#button_try {
+    margin: auto;
+    display: block;
+    
+}

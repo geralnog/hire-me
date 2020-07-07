@@ -1,0 +1,183 @@
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 1rem;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=PT+Serif&display=swap");
+
+html {
+  background-color: #2d3047;
+}
+
+body {
+  font-family: "PT Serif", serif;
+  margin: 0;
+  padding: 0;
+}
+
+navbar {
+  position: fixed;
+  width: 100vw;
+  height: 40px;
+  background-color: rgb(255, 236, 62);
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+navbar a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin: 10px;
+}
+
+#container-nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  text-align: right;
+}
+#pc-icon {
+  width: 32px;
+  height: 32px;
+  float: left;
+  position: fixed;
+  top: 17px;
+  left: 40px;
+  transform: translate(-50%, -50%);
+}
+
+#container-welcome {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container-welcome::before {
+  content: "";
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+#welcome-text {
+  background-color: rgba(1, 1, 1, 0.2);
+  padding: 100px 200px 100px 200px;
+  z-index: 1;
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
+}
+
+#projects {
+  height: 100vh;
+  padding: 60px;
+  text-align: center;
+  background-color: #363a55;
+  color: white;
+}
+
+#projects h1{
+  padding-bottom: 15px;
+}
+
+#programming {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%; 
+}
+
+#programming img {
+  max-width: 350px;
+  height: 300px;
+}
+
+#programming p {
+  color: white;
+  text-decoration: none;
+  max-width: 350px;
+  text-align: center;
+}
+
+.project-title {
+background-color: #2d3047;
+padding: 20px;
+border-radius: 5px;
+}
+
+.project-title a {
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 1em;
+}
+
+.github {
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #E0CA3C;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.github a {
+  text-decoration: none;
+  
+}
+.github p {
+  font-weight: bolder;
+  font-size: 1.1em;
+  color: black;
+  padding: 20px;
+}
+
+#info {
+  height: 100vh;
+}
+
+#info {
+  background-color: #93b7be;
+  margin: 0 auto;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#about, a{
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+#habilities {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+#footer {
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+#footer a {
+  text-decoration: none;
+  color: yellow;
+}

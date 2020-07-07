@@ -1,0 +1,52 @@
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+    @media screen and (min-width: 601px) {
+        font-size: 80px;
+        
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+        font-size: 30px;
+    
+}
+
+
+body {
+    background-color: skyblue;
+    max-width: 800px;
+    height: 400px;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+textarea {
+    display: flex;
+    Width: 90%;
+    height: auto;
+    min-height: 200px;
+    align-content: center;
+    margin: auto;
+    outline: none;
+    resize: none;
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+    background-color: mistyrose;
+    margin-bottom: 5px;
+}
+
+#wordCount, #charNumWithSpace, #charNumWithOutSpace {
+    color: navy;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    white-space: nowrap;
+    font-size: calc(1.1vw + 1.1vh)
+}

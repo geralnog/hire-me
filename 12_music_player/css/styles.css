@@ -1,0 +1,33 @@
+body {
+    background-color: #e4cd05;
+    color: white;
+    margin: 0;
+    /* overflow: hidden; */
+    font-family: 'Jost', sans-serif;
+    padding-top: 25vh;
+    padding-bottom: 25vh;
+}
+
+h1 {
+    margin-left: 5%;
+}
+
+input {
+    display: none;
+}
+
+.upload-file {
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    display: flex;
+    height: 200px;
+    width: 90vw;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#buttons {
+ text-align: center;
+ padding-top: 15px;
+}
