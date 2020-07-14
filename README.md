@@ -10,4 +10,6 @@ Recently, I updated my test/exercise page with some mini projects of HTML/CSS/JS
 
 **YES! I'M READY. HIRE ME!**
 
+https://geralnog.github.io/hire-me/
+
 *// Geraldo Nogueira // Phone: +351-912372863 // Email: geralnog@gmail.com // Porto - Portugal // [Twitter](https://twitter.com/geralnog)*
